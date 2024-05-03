@@ -6,21 +6,21 @@
     <title>My Portfolio and Resume</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="script.js">
+    
 </head>
 <body>
     <nav>
-        <ul>
+        <ul class="mainbar">
             <li><a href="#">Ayush</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-            <li onclick=Showside_bar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            <li class="hide"><a href="#">Home</a></li>
+            <li class="hide"><a href="#">About</a></li>
+            <li class="hide"><a href="#">Resume</a></li>
+            <li class="hide"><a href="#">Contact</a></li>
+            <li  onclick="Showsidebar()"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
 
         <ul class="sidebar">
-            <li><a href="#">Ayush</a></li>
+            <li onclick="Closebar()"><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Resume</a></li>
@@ -29,7 +29,7 @@
     </nav>
 
     
-
+    <script src="script.js"></script>
     
 
 </body>
