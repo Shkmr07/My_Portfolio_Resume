@@ -66,6 +66,7 @@ body
     width: 100%;
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
 
 .mainbar > li:last-child
@@ -91,6 +92,8 @@ body
     {
         display: block;
     }
+
+
     
         
 }
